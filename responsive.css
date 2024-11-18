@@ -1,0 +1,42 @@
+
+/*Destop devices*/
+@media screen and (min-width:1024px){
+    .circle{
+        left: 31% !important;
+        
+    }
+
+}
+/* Tablet devices*/
+@media (min-width: 768px) and (max-width: 1024px) {
+body{
+    background-size: initial !important;
+}
+.divleft{
+    display:none !important;
+}
+.divright{
+    width:100% !important;
+}
+
+.circle{
+    left: 35% !important;
+    height:15vh !important;
+    width:15vh !important;
+}
+}
+/*mobile devices*/
+@media screen and (max-width:767px){
+body{
+    background-size: initial !important;
+}
+.divleft{
+    display:none !important;
+}
+.divright{
+    width:100% !important;
+}
+.circle{
+    left:36% !important;
+}
+}
